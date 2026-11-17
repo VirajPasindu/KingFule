@@ -184,3 +184,35 @@ export const PROCESS = [
     text: "Filled into recyclable aluminum cans (330 ml) designed to protect quality and travel well.",
   },
 ] as const;
+
+export const VALUES = [
+  {
+    title: "Natural purity & quality",
+    text: "A commitment to clean beverages built on the natural character of King Coconut water.",
+  },
+  {
+    title: "Purpose-driven innovation",
+    text: "Pairing Sri Lanka's agricultural strength with modern food processing to make stage-specific hydration.",
+  },
+  {
+    title: "Environmental sustainability",
+    text: "Choosing aluminum cans and glass bottles over single-use plastic.",
+  },
+  {
+    title: "Local empowerment & national pride",
+    text: "Working with local farming communities and putting an authentic Sri Lankan product on the global stage.",
+  },
+  {
+    title: "Consumer transparency",
+    text: "Plain, honest information about what is in the bottle and how it is made.",
+  },
+] as const;
+
+export const INQUIRY_CATEGORIES = [
+  "General Inquiries",
+  "Product Information",
+  "Wholesale / Distribution",
+  "Gym & Sports Partnerships",
+  "Business Opportunities",
+] as const;
+
